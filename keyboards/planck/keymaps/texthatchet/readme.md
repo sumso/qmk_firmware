@@ -2,7 +2,7 @@
 
 I can't say it's accurate as I don't actually have a textblade, but this is mostly based off of videos and pictures available on their site [Waytools.com](http://waytools.com). Made this so I could practice before I got mine... (Not sure how many dots a 4 year ellipsis should contain)
 
-I kept things simple (or compicated) with layer locking. When switching to a layer with a chord, just double tap the last key while holding the first. For example, hold down D and F and keep holding to switch to the Edit layer. To lock the Edit layer, hold down either D or F and double tap the other key. To exit a layer, lock just hit CapsLock.
+I kept things simple (or compicated) with layer locking. When switching to a layer with a chord, just double tap the last key while holding the first. For example, hold down D and F and keep holding to switch to the Edit layer. To lock the Edit layer, hold down either D or F and double tap the other key. To exit a layer lock, just hit CapsLock.
 
 ## ToDo:
  - Improve timings - if something is held down when typing the next key, then things get sketchy. Seems to work best for me when I'm typing quickly. If I'm thinking too much and linger on a key or am lazy with releasing a letter before the next, the key gets eaten (because of a temporary layer toggle).
