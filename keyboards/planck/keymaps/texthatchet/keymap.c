@@ -394,39 +394,50 @@ void rgb_matrix_indicators_user(void) {
           rgb_matrix_set_color(44, 0x16, 0x32, 0x32);
           break;
         case _LOUT:
-          //print("a");
           rgb_matrix_set_color( 11, 0x00, 0x16, 0x00);
           break;
         case _LIN:
-          //print("a");
           rgb_matrix_set_color( 10, 0x00, 0x16, 0x00);
           break;
         case _ROUT:
-          //print("a");
           rgb_matrix_set_color( 11, 0x00, 0x16, 0x00);
           break;
         case _RIN:
-          //print("a");
           rgb_matrix_set_color( 10, 0x00, 0x16, 0x00);
           break;
 	      case _NUMPAD:
-          //print("l");
-	        rgb_matrix_layer_helper(0x00, 0xFF, 0x00, false);
+          // exit
+          rgb_matrix_set_color(12, 0x16, 0x08, 0x16);
+          // numbers
+          rgb_matrix_set_color( 7, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color( 8, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color( 9, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(19, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(20, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(21, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(30, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(31, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(32, 0x00, 0x00, 0x4A);
+          rgb_matrix_set_color(33, 0x00, 0x00, 0x4A);
+          // plus minus00
+          rgb_matrix_set_color( 6, 0xEA, 0xEA, 0x00);
+          rgb_matrix_set_color(10, 0x4A, 0x4A, 0x00);
+          // multiply divide00
+          rgb_matrix_set_color(22, 0xEA, 0x00, 0x00);
+          rgb_matrix_set_color(34, 0x2A, 0x00, 0x00);
+          // dot
+          rgb_matrix_set_color(18, 0xC0, 0xC0, 0xC0);
           break;
 	      case _RAISE:
-          //print("r");
 	        rgb_matrix_layer_helper(0xFF, 0xFF, 0x00, false);
           break;
         case _ADJUST:
-          //print("a");
           rgb_matrix_layer_helper(0xFF, 0x00, 0x00, false);
           break;
         case _MEDIA:
-          //print("a");
           rgb_matrix_set_color( 11, 0x00, 0x16, 0x00);
           break;
         case _SPCL:
-          //print("a");
           rgb_matrix_layer_helper(0xFF, 0x00, 0x00, false);
           rgb_matrix_set_color(40, 0x64, 0x00, 0x00);
           rgb_matrix_set_color(41, 0x64, 0x00, 0x00);
@@ -439,7 +450,6 @@ void rgb_matrix_indicators_user(void) {
           rgb_matrix_set_color( 13, 0x00, 0x16, 0x00);
           break;
         case _EDIT:
-          //print("e");
           rgb_matrix_set_color( 6, 0xEF, 0x00, 0x00);
           rgb_matrix_set_color( 7, 0x00, 0x08, 0x00);
           rgb_matrix_set_color( 8, 0x32, 0x32, 0x64);

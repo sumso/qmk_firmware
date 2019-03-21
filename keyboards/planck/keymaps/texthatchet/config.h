@@ -25,9 +25,9 @@
                                 }
 #endif
 
-#define RGB_MATRIX_KEYPRESSES
-// stop ignoring my quick mod keys
-#define PERMISSIVE_HOLD
+// #define RGB_MATRIX_KEYPRESSES // too laggy
+// permissive hold seems to cause more issues with all of the multi-layers, interrupting typing more.
+// #define PERMISSIVE_HOLD
 #define TAPPING_TOGGLE 2
 /*
  * MIDI options
